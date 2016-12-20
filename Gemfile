@@ -35,6 +35,7 @@ gem 'autoprefixer-rails', '~> 6.5', '>= 6.5.3'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+  gem 'devise', '~>3.5.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
