@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-  
+before_action :authenticate_user!, expect: [:index,:show]
 before_filter :set_article, only: [:show,:edit,:update,:destroy]
 
   def index
